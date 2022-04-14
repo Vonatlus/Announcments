@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bulma/css/bulma.css';
+import { AnnoncementProvider } from './AnnoncementProvider';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AnnoncementProvider>
+      <App />
+    </AnnoncementProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
