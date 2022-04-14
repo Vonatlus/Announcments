@@ -1,6 +1,6 @@
 {
-  "name": "Announcments",
-  "homepage": "https://vonatlus.github.io/Announcements",
+  "name": "announcments",
+  "homepage": "https://vonatlus.github.io/announcments",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
